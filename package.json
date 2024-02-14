@@ -1,7 +1,48 @@
 {
-  "name": "reaction",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@xkeshav/reaction",
+  "version": "1.0.1",
+  "displayName": "Reaction",
+  "description": "A next js based starter repo",
+  "private": false,
+  "publisher": "@xkeshav",
+  "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/xkeshav/template/issues",
+    "email": "xkeshav@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkeshav/template.git"
+  },
+  "keywords": [
+    "xkeshav",
+    "template",
+    "github"
+  ],
+  "main": "./src/index.js",
+  "author": {
+    "name": "Keshav Mohta",
+    "email": "xkeshav@gmail.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://xkeshav.com"
+  },
+  "contributors": [],
+  "peerDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,7 +52,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "next": "14.1.0",
+    "@xkeshav/watch": "1.2.0"
   },
   "devDependencies": {
     "typescript": "^5",
