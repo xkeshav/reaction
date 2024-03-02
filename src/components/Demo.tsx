@@ -1,6 +1,8 @@
 'use client';
+import { oneDay } from '@xkeshav/day';
 import { Watch } from "@xkeshav/watch";
 import { useState } from "react";
+
 
 export const Demo = () => {
   const [date, setDate] = useState<Date>(new Date());
@@ -8,6 +10,8 @@ export const Demo = () => {
     const nextHour = date.getHours() + 1;
     setDate(new Date(date.setHours(nextHour)));
   };
+
+  console.log({oneDay});
 
   return (
     <div>
